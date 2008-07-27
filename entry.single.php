@@ -8,7 +8,7 @@ $theme->display('header');
 
 ?>
 
-	<div class="column span-18">
+	<div class="column span-18 prepend-3 last">
 	  <div class="column span-10" id="masthead">
 		<h1><a href="<?php Site::out_url('habari'); ?>">habari</a></h1>
 	  	<h2>spread the news</h2>

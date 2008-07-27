@@ -33,9 +33,4 @@
 		</ul>
 	</div>
 
-	<div class="column span-6">
-	<!-- empty left sidbar -->
-	<p>&nbsp;</p>
-	</div>
-
 	<div class="container">
