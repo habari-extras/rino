@@ -25,10 +25,11 @@
   <body>
   	<div id="menu">
 	  	<ul>
-	  		<li><a href="http://wiki.habariproject.org/">Documentation</a></li>
+	  		<li class="first"><a href="http://wiki.habariproject.org/">Documentation</a></li>
+			<li><a href="support">Support</a></li>
 	  		<li><a href="http://wiki.habariproject.org/en/FAQ">FAQ</a></li>
 			<li><a href="http://wiki.habariproject.org/en/Getting_Involved">Community</a></li>
-	  		<li><a href="http://habariproject.org/en/download">Download</a></li>
+	  		<li class="last"><a href="http://habariproject.org/en/download">Download</a></li>
 	  		<!--<li id="searchbox"><input type="text"><button>Search</button></li>-->
 		</ul>
 	</div>

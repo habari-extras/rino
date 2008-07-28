@@ -21,7 +21,7 @@ $theme->display('header');
 	  </div>
 
 	  <div class="column span-18 last" id="elevator">
-	  	<p>Habari is a <em>free</em> next-generation <em>open-source</em> blogging platform created by the community for the community.  <a href="http://habariproject.org/en/download">Download</a> the latest stable version.</p>
+	  	<p>Habari is a free next-generation <a href="licensing">open-source</a> blogging platform created by the community.  <a href="http://habariproject.org/en/download">Download</a> the latest version and help define the future of blogging.</p>
 	  </div>
 
 	  <hr>
