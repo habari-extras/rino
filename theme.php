@@ -16,6 +16,7 @@ class RinoTheme extends Theme
 	{
 		// Apply Format::autop() to post content...
 		Format::apply( 'autop', 'post_content_out' );
+		Format::apply( 'autop', 'post_content_excerpt' );
 		// Apply Format::autop() to comment content...
 		Format::apply( 'autop', 'comment_content_out' );
 		// Apply Format::tag_and_list() to post tags...
@@ -24,8 +25,8 @@ class RinoTheme extends Theme
 		Format::apply( 'nice_date', 'post_pubdate_out', 'F j, Y g:ia' );
 		// Apply Format::nice_date() to comment date...
 		Format::apply( 'nice_date', 'comment_date', 'F j, Y g:ia' );
-		// Truncate content excerpt at "more" or 56 characters...
-		Format::apply_with_hook_params( 'more', 'post_content_out', 'Read More', 50 );
+		// Truncate content excerpt at "more" or 75 characters...
+		Format::apply_with_hook_params( 'more', 'post_content_excerpt', 'Read More', 75 );
 	}
 
 	public function add_template_vars()
@@ -44,7 +45,6 @@ class RinoTheme extends Theme
 		Stack::add( 'template_header_javascript', Site::get_url('scripts') . '/jquery.js', 'jquery' );
 		Stack::add( 'template_header_javascript', Site::get_url( 'theme' ) . '/swfobject.js', 'swfobject' );
 	}	
-
 
 }
 

@@ -81,6 +81,10 @@ h2 {
 	margin: -10px 0px 0px;
 }
 
+h3 {
+	color: #505050;
+}
+
 #subhead {
 	padding: 2.0em 0px 0px;
 	font-style: italic;
@@ -135,6 +139,20 @@ hr {
 
 .post {
 	margin-bottom: 1.5em;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+	margin-top: 4em;
+}
+
+#sidebar h2 {
+	color: #505050;
+}
+
+#sidebar div {
+	margin-bottom: 2em;
 }
 
 /* ENTRIES */
