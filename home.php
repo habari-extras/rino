@@ -8,20 +8,27 @@ $theme->display('header');
 
 ?>
 
-	<div class="column span-18">
+	<div class="column span-17 colborder last">
 	  <div class="column span-10" id="masthead">
 	  	<h1>habari</h1>
 	  	<h2>spread the news</h2>
 	  </div>
 
-	  <div class="column span-8 last" id="subhead">
+	  <div class="column span-7 last" id="subhead">
 	  	<p><b>ha&middot;ba&middot;ri - </b> noun<br>
-	  	Definition - Swahili greetings: What's the news?
+	  	Definition &mdash; Swahili greeting: What's the news?
 			</p>
 	  </div>
 
-	  <div class="column span-18 last" id="elevator">
-	  	<p>Habari is a free next-generation <a href="licensing">open-source</a> blogging platform created by the community.  <a href="http://habariproject.org/en/download">Download</a> the latest version and help define the future of blogging.</p>
+	  <div class="column span-17 last" id="elevator">
+	  	<p>Habari is next-generation blogging. <a
+		href="http://habariproject.org/en/download">Download</a> habari and
+		help our <a
+		href="http://wiki.habariproject.org/en/Getting_Involved">community</a>
+		design the future of blogs.</p>
+	  <!-- old version
+	  	<p>Habari is a free, next-generation blogging platform created by the <a href="http://wiki.habariproject.org/en/Getting_Involved">community</a>.  <a href="http://habariproject.org/en/download">Download</a> the latest version and help define the future of blogging.</p>
+		-->
 	  </div>
 
 	  <hr>
@@ -47,11 +54,11 @@ $theme->display('header');
 
 	  <hr>
 
-	  <div class="column span-18" id="screencast">
+	  <div class="column span-17" id="screencast">
 		<p>We've created a few <a href="screencasts">screencasts</a> for you to get a better appreciation of the software in action, however we're also covered you if you're looking for some <a href="screenshots">screenshots</a> instead.</p>
 	  </div>
 
-	  <div class="column span-18" id="sellingpoints">
+	  <div class="column span-17" id="sellingpoints">
 		<?php
 		// grab 'home' post
 		$homepost = Posts::get( array( 'slug' => 'home' ) );
@@ -84,7 +91,15 @@ $theme->display('header');
 	  <div id="featured-extras">
 		<h2>Plugins and Themes</h2>
 
-		<p>Latest plugins and themes go here.</p>
+		<p>Some popular plugins include:</p>
+		<ul>
+			<li>posting to twitter and receiving status updates</li>
+			<li>Inserting Flickr videos and photos from the post editor</li>
+			<li>Feedburner integration for customized feeds and statistics</li>
+			<li>Disqus comments</li>
+			<li>Defensio spam filtering</li>
+			<li>lifestreaming</li>
+		</ul>
 	  </div>
 	</div>
 

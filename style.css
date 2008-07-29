@@ -96,9 +96,9 @@ h3 {
 
 #elevator {
 	font-size: 3.0em;
-	line-height: 1;
+	line-height: 1.2em;
 	margin: 0.8em 0px 0.6em;
-	text-align: justify;
+	/*text-align: justify;*/
 	color: #ACACAC;
 }
 
