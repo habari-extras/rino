@@ -38,6 +38,7 @@ a {
 	float: left;
 	font-weight: bold;
 	font-size:.8em;
+	line-height: 2;
 }
 
 .home #menu ul li {

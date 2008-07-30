@@ -17,18 +17,11 @@ $theme->display('header');
 	  <div class="column span-7 last" id="subhead">
 	  	<p><b>ha&middot;ba&middot;ri - </b> noun<br>
 	  	Definition &mdash; Swahili greeting: What's the news?
-			</p>
+		</p>
 	  </div>
 
 	  <div class="column span-17 last" id="elevator">
-	  	<p>Habari is next-generation blogging. <a
-		href="download">Download</a> Habari and
-		help our <a
-		href="http://wiki.habariproject.org/en/Getting_Involved">community</a>
-		design the future of blogs.</p>
-	  <!-- old version
-	  	<p>Habari is a free, next-generation blogging platform created by the <a href="http://wiki.habariproject.org/en/Getting_Involved">community</a>.  <a href="http://habariproject.org/en/download">Download</a> the latest version and help define the future of blogging.</p>
-		-->
+	  	<p>Habari is next-generation blogging. <a href="download">Download</a> Habari and help our <a href="http://wiki.habariproject.org/en/Getting_Involved">community</a> design the future of blogs.</p>
 	  </div>
 
 	  <hr>
