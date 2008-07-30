@@ -186,6 +186,16 @@ hr {
 	margin: 1.5em 0 1.5em 0;
 }
 
+/* MISC */
+
+.discuss-link a {
+	display: block;
+	padding-left: 28px;
+	height: 20px;
+	background: url('images/discussion.png') no-repeat top left;
+	margin: -0.5em 0 1em;
+}
+
 /* COMMENTS */
 .comment-meta {
 	margin: 0 15px 0 0;

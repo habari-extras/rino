@@ -71,9 +71,14 @@ $theme->display('header');
 	  </div>
 
 	  <div id="user-mailing-list">
-		<h2><a href="http://groups.google.com/group/habari-users">Users Mailing List</a></h2>
+		<h2>Users Mailing List</h2>
+		<span class="discuss-link"><a href="http://groups.google.com/group/habari-users">Google group</a></span>
 
-		<?php echo $feedlist[0]; ?>
+		<?php if ( isset($feedlist) && is_array($feedlist) ) {
+			echo $feedlist[0];
+		} else { ?>
+			<p>Feed not available</p>
+		<?php } ?>
 
 	  </div>
 
