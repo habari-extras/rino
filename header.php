@@ -28,7 +28,7 @@
 			<?php if ( ! $request->display_home ): ?>
 			<li><a href="<?php Site::out_url( 'habari' ); ?>">Home</a></li>
 			<?php endif; ?>
-	  		<li><a href="http://habariproject.org/en/download">Download</a></li>
+	  		<li><a href="download">Download</a></li>
 	  		<li><a href="http://wiki.habariproject.org/">Documentation</a></li>
 			<li><a href="support">Support</a></li>
 	  		<li><a href="http://wiki.habariproject.org/en/FAQ">FAQ</a></li>

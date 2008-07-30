@@ -22,7 +22,7 @@ $theme->display('header');
 
 	  <div class="column span-17 last" id="elevator">
 	  	<p>Habari is next-generation blogging. <a
-		href="http://habariproject.org/en/download">Download</a> Habari and
+		href="download">Download</a> Habari and
 		help our <a
 		href="http://wiki.habariproject.org/en/Getting_Involved">community</a>
 		design the future of blogs.</p>
