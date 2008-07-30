@@ -172,6 +172,16 @@ hr {
 	margin-bottom: 2em;
 }
 
+#sidebar #user-mailing-list h2 a {
+	color: #505050;
+}
+
+a.discuss-link {
+	padding-left: 21px;
+	min-height: 16px;
+	background: url('images/discussion.png') no-repeat 0 50%;
+}
+
 /* ENTRIES */
 
 .entry-meta .entry-tags {
@@ -184,16 +194,6 @@ hr {
 
 .entry-content {
 	margin: 1.5em 0 1.5em 0;
-}
-
-/* MISC */
-
-.discuss-link a {
-	display: block;
-	padding-left: 28px;
-	height: 20px;
-	background: url('images/discussion.png') no-repeat top left;
-	margin: -0.5em 0 1em;
 }
 
 /* COMMENTS */

@@ -71,8 +71,7 @@ $theme->display('header');
 	  </div>
 
 	  <div id="user-mailing-list">
-		<h2>Users Mailing List</h2>
-		<span class="discuss-link"><a href="http://groups.google.com/group/habari-users">Google group</a></span>
+		<h2><a href="http://groups.google.com/group/habari-users" class="discuss-link">Users Mailing List</a></h2>
 
 		<?php if ( isset($feedlist) && is_array($feedlist) ) {
 			echo $feedlist[0];
