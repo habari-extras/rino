@@ -40,15 +40,11 @@ $theme->display('header');
 	  </div>
 	  <script type="text/javascript">
 		// <!--
-		$('#media').click(function(){
-			var so = new SWFObject( "<?php Site::out_url( 'theme' ); ?>/habari_install2.swf", "csSWF", "720", "284", "8", "#ffffff");
-			so.addParam( "quality", "best" );
-			so.addParam( "allowFullScreen", "false" );
-			so.addParam( "scale", "noscale" );
-			so.addParam( "allowScriptAccess", "always" );
-			so.addVariable( "autostart", "true" );
-			so.write("media");
-		});
+		var so = new SWFObject('<?php Site::out_url('theme')?>/player.swf','mpl','595','295','9');
+		so.addParam('allowscriptaccess','always');
+		so.addParam('allowfullscreen','true');
+		so.addParam('flashvars','&file=http://blip.tv/file/get/Ringmaster-HabariInstall846.flv');
+		so.write('media');
 		// -->
 	  </script>
 
