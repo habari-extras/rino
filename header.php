@@ -22,14 +22,17 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php Site::out_url( 'theme' ); ?>/style.css">
 	<?php $theme->header(); ?>
   </head>
-  <body>
+  <body class="<?php if ( $request->display_home ) { echo "home"; } ?>">
   	<div id="menu">
 	  	<ul>
-	  		<li class="first"><a href="http://wiki.habariproject.org/">Documentation</a></li>
+			<?php if ( ! $request->display_home ): ?>
+			<li><a href="<?php Site::out_url( 'habari' ); ?>">Home</a></li>
+			<?php endif; ?>
+	  		<li><a href="http://habariproject.org/en/download">Download</a></li>
+	  		<li><a href="http://wiki.habariproject.org/">Documentation</a></li>
 			<li><a href="support">Support</a></li>
 	  		<li><a href="http://wiki.habariproject.org/en/FAQ">FAQ</a></li>
 			<li><a href="http://wiki.habariproject.org/en/Getting_Involved">Community</a></li>
-	  		<li class="last"><a href="http://habariproject.org/en/download">Download</a></li>
 	  		<!--<li id="searchbox"><input type="text"><button>Search</button></li>-->
 		</ul>
 	</div>

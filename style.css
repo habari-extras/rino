@@ -3,6 +3,7 @@ body {
 	padding: 0px;
 	color: #777;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 87.5%; /* 14px */
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 /* Menu */
 
 #menu {
-	background-color: #2a2a2a;
+	background-color: #4a4a4a;
 	height: 30px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -27,11 +28,20 @@ a {
 	position: relative;
 }
 
+.home #menu ul {
+	width: 950px;
+}
+
 #menu ul li {
 	display: block;
-	width: 130px;
+	width: 110px;
 	float: left;
 	font-weight: bold;
+	font-size:.8em;
+}
+
+.home #menu ul li {
+	width: 130px;
 }
 
 #menu ul li a {
@@ -45,7 +55,8 @@ a {
 
 #menu ul li a:hover {
 	text-decoration: underline;
-	color: #4D9EBC;
+	color: #eee;
+	background: #5a5a5a;
 }
 
 #menu #searchbox {
@@ -61,11 +72,16 @@ a {
 /* BODY */
 
 #masthead {
+	text-indent: -5000px;
+	background: url('images/habari-with-tagline.png') no-repeat top left;
+	height: 75px;
+	margin-bottom: 9px; /* to make total height an integer multiple of 21 */
 }
 
 h1 {
 	font-weight: bold;
-	font-size: 4.0em;
+	font-size: 3.4em;
+	line-height: 1.324;
 	color: #505050;
 	margin: 0px;
 }
@@ -76,9 +92,9 @@ h1 a {
 
 h2 {
 	color: #ACACAC;
-	font-size: 1.7em;
+	font-size: 1.2em;
+	line-height: 1.25;
 	font-weight: bold;
-	margin: -10px 0px 0px;
 }
 
 h3 {
@@ -86,8 +102,9 @@ h3 {
 }
 
 #subhead {
-	padding: 2.0em 0px 0px;
+	padding: 2em 0 0;
 	font-style: italic;
+	font-size: 0.8em;
 }
 
 #subhead p {
@@ -95,10 +112,9 @@ h3 {
 }
 
 #elevator {
-	font-size: 3.0em;
-	line-height: 1.2em;
-	margin: 0.8em 0px 0.6em;
-	/*text-align: justify;*/
+	font-size: 2.4em;
+	line-height: 1.25;
+	margin: 0.25em 0 0.25em;
 	color: #ACACAC;
 }
 
@@ -130,7 +146,7 @@ hr {
 }
 
 #media {
-	margin-bottom: 1.4em;
+	margin-bottom: 1.5em;
 }
 
 #screencast {
@@ -144,7 +160,7 @@ hr {
 /* SIDEBAR */
 
 #sidebar {
-	margin-top: 4em;
+	margin-top: 3em;
 }
 
 #sidebar h2 {
