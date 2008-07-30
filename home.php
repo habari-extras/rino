@@ -22,7 +22,7 @@ $theme->display('header');
 
 	  <div class="column span-17 last" id="elevator">
 	  	<p>Habari is next-generation blogging. <a
-		href="http://habariproject.org/en/download">Download</a> habari and
+		href="http://habariproject.org/en/download">Download</a> Habari and
 		help our <a
 		href="http://wiki.habariproject.org/en/Getting_Involved">community</a>
 		design the future of blogs.</p>
@@ -35,7 +35,7 @@ $theme->display('header');
 
 	  <div id="media">
 		<div id="noUpdate">
-			<p>The video content presented here requires JavaScript to be enabled and the  latest version of the Macromedia Flash Player. If you are you using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.macromedia.com/go/getflashplayer">downloading here</a>. </p>
+			<p>The video content presented here requires JavaScript to be enabled and the  latest version of the Macromedia Flash Player. If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.macromedia.com/go/getflashplayer">downloading here</a>. </p>
 		</div>
 	  </div>
 	  <script type="text/javascript">
