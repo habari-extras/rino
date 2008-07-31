@@ -45,6 +45,7 @@ class RinoTheme extends Theme
 		Stack::add( 'template_header_javascript', Site::get_url('scripts') . '/jquery.js', 'jquery' );
 		Stack::add( 'template_header_javascript', Site::get_url('theme') . '/thickbox-compressed.js', 'thickbox' );
 		Stack::add( 'template_header_javascript', Site::get_url( 'theme' ) . '/swfobject.js', 'swfobject' );
+		Stack::add( 'template_header_javascript', Site::get_url( 'theme' ) . '/features.js', 'features' );
 		Stack::add( 'template_stylesheet', array(Site::get_url('theme') . '/thickbox.css', 'screen'), 'thickbox' );
 	}	
 
