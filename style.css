@@ -158,6 +158,70 @@ hr {
 	margin-bottom: 1.5em;
 }
 
+/* FEATURES */
+#featureset, #featureset li, #featurenav, #featurenav li {
+	list-style:none;
+}
+
+#featurenav li {
+	float:left;
+}
+
+#featurenav li a {
+	display:block;
+	text-align:center;
+	line-height:2em;
+	color:#000;
+}
+
+#featurenav li.active a {
+	background:#000;
+	color:#FFF;
+}
+
+#featureset li {
+	float:left;
+	display:none;
+	border:3px solid #222;
+	position:relative;
+	padding:0;
+	margin:0;
+	height:275px;
+}
+
+#featureset li.active, #featureset li:active {
+	display:block;
+}
+
+#featureset li h4 {
+	position:absolute;
+	right:0;
+	top:0;
+	background:#333333;
+	color:#CCCCCC;
+	padding:5px;
+	border-width:2px;
+	border-color:#000;
+	border-style:none none solid solid;
+}
+
+#featureset li p {
+	position:absolute;
+	left:0;
+	bottom:0;
+	margin:0;
+	padding:5px 5px;
+	background:url('images/black-trans.png');
+	width:640px;
+	color:#FFF;
+	border-top:#000 1px solid;
+}
+
+#featureset li img {
+	padding:0;
+	margin:0;
+}
+
 /* SIDEBAR */
 
 #sidebar {
