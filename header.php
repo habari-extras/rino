@@ -20,6 +20,9 @@
 	<link rel="stylesheet"  type="text/css" media="screen" href="<?php Site::out_url( 'habari' ); ?>/3rdparty/blueprint/ie.css">
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php Site::out_url( 'theme' ); ?>/style.css">
+	<script type="text/javascript">
+	var tb_pathToImage = "<?php Site::out_url('theme'); ?>/loadingAnimation.gif";
+	</script>
 	<?php $theme->header(); ?>
   </head>
   <body class="<?php if ( $request->display_home ) { echo "home"; } ?>">
