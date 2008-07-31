@@ -8,7 +8,7 @@ $theme->display('header');
 
 ?>
 
-	<div class="column span-17 colborder last">
+	<div class="column span-17 colborder">
 	  <div class="column span-10" id="masthead">
 	  	<h1>habari</h1>
 	  	<h2>spread the news</h2>
