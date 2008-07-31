@@ -15,7 +15,7 @@ $theme->display('header');
 	  </div>
 
 	  <div class="column span-8 last" id="subhead">
-	  	<p><b>ha&middot;ba&middot;ri - </b> noun<br>
+	  	<p><b>ha&middot;bar&middot;i - </b> noun<br>
 	  	Definition - Swahili greetings: What's the news?
 			</p>
 	  </div>
