@@ -184,6 +184,13 @@ hr {
 	color:#FFF;
 }
 
+#featureset {
+	float:left;
+	position:relative;
+	height:275px;
+	width:650px;
+}
+
 #featureset li {
 	float:left;
 	display:none;
@@ -192,6 +199,9 @@ hr {
 	padding:0;
 	margin:0;
 	height:275px;
+	position:absolute;
+	left:0;
+	top:0;
 }
 
 #featureset li.active, #featureset li:target {
