@@ -194,7 +194,7 @@ hr {
 #featureset li {
 	float:left;
 	display:none;
-	border:3px solid #222;
+	border:3px solid #000;
 	position:relative;
 	padding:0;
 	margin:0;
