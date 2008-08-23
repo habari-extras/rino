@@ -44,7 +44,7 @@ $theme->display('header');
 	  <hr>
 
 	  <div class="column span-17" id="screencast">
-		<p>We've created a few <a href="screencasts">screencasts</a> for you to get a better appreciation of the software in action, however we're also covered you if you're looking for some <a href="screenshots">screenshots</a> instead.</p>
+		<p>We've created a few <a href="screencasts">screencasts</a> for you to get a better appreciation of the software in action. We also have <a href="screenshots">screenshots</a> if you are looking for those, instead.</p>
 	  </div>
 
 	  <div class="column span-17" id="sellingpoints">
