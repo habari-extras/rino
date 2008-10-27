@@ -25,10 +25,10 @@ $theme->display('header');
 	  <div class="column span-18 content last">
 		<div id="downloading">
 <?php
-/*/
-Options::set('download_url', 'http://habariproject.org/dist/habari-0.4.1.zip');
-Options::set('download_version', '0.4.1');
-//*/
+/*
+Options::set('download_url', 'http://habariproject.org/dist/habari-0.5.2.zip');
+Options::set('download_version', '0.5.2');
+*/
 ?>
 		<h3><a href="<?php Options::out('download_url'); ?>">Download The Current Stable Version</a></h3>
 		<p>The current stable version of Habari is <b><?php echo Options::out('download_version'); ?></b></p>
