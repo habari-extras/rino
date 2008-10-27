@@ -24,7 +24,7 @@ class RinoTheme extends Theme
 		// Apply Format::nice_date() to post date...
 		Format::apply( 'nice_date', 'post_pubdate_out', 'F j, Y g:ia' );
 		// Apply Format::nice_date() to comment date...
-		Format::apply( 'nice_date', 'comment_date', 'F j, Y g:ia' );
+		//Format::apply( 'nice_date', 'comment_date', 'F j, Y g:ia' );
 		// Truncate content excerpt at "more" or 75 characters...
 		Format::apply_with_hook_params( 'more', 'post_content_excerpt', 'Read More', 75 );
 	}
@@ -48,6 +48,19 @@ class RinoTheme extends Theme
 		Stack::add( 'template_header_javascript', Site::get_url( 'theme' ) . '/features.js', 'features' );
 		Stack::add( 'template_stylesheet', array(Site::get_url('theme') . '/thickbox.css', 'screen'), 'thickbox' );
 	}	
+
+/*
+	public function filter_rewrite_rules($rules)
+	{
+		foreach($rules as $rule) {
+			if($rule->name == 'display_entries') {
+				$rule->parse_regex = '%^(?:page/(?P<page>[1-9]|[1-9][0-9]+))/?$%';
+				$rule->update();
+			}
+		}
+		return $rules;
+	}
+*/
 
 }
 
