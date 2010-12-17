@@ -9,21 +9,27 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-  <meta name="generator" content="Habari">
+  	<meta http-equiv="Content-Type" content="text/html">
 	<title><?php if($request->display_entry && isset($post)) { echo "{$post->title} :: "; } ?><?php Options::out( 'title' ) ?></title>
-	<meta http-equiv="Content-Type" content="text/html">
+	
 	<meta name="generator" content="Habari">
+	
 	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php $theme->feed_alternate(); ?>">
 	<link rel="edit" type="application/atom+xml" title="Atom Publishing Protocol" href="<?php URL::out( 'atompub_servicedocument' ); ?>">
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php URL::out( 'rsd' ); ?>">
-	<link rel="stylesheet" type="text/css" media="screen" href="<?php Site::out_url( 'habari' ); ?>/3rdparty/blueprint/screen.css">
-	<!--[if lte IE 6]>
-	<link rel="stylesheet"  type="text/css" media="screen" href="<?php Site::out_url( 'habari' ); ?>/3rdparty/blueprint/ie.css">
+	
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="<?php Site::out_url( 'vendor' ); ?>/blueprint/screen.css">
+	<link rel="stylesheet" type="text/css" media="print" href="<?php Site::out_url( 'vendor' ); ?>/blueprint/print.css">
+	<!--[if lt IE 8]>
+		<link rel="stylesheet"  type="text/css" media="screen, projection" href="<?php Site::out_url( 'vendor' ); ?>/blueprint/ie.css">
 	<![endif]-->
+	
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php Site::out_url( 'theme' ); ?>/style.css">
+	
 	<script type="text/javascript">
-	var tb_pathToImage = "<?php Site::out_url('theme'); ?>/loadingAnimation.gif";
+		var tb_pathToImage = "<?php Site::out_url('theme'); ?>/loadingAnimation.gif";
 	</script>
+	
 	<?php $theme->header(); ?>
   </head>
   <body class="<?php if ( $request->display_home ) { echo "home"; } ?>">
