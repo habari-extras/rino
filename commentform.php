@@ -8,7 +8,9 @@ if ( ! defined('HABARI_PATH' ) ) { die( _t('Please do not load this page directl
 if ( Session::has_errors() ) {
 	Session::messages_out();
 }
-?>
+
+    $post->comment_form()->out();
+/* ?>
       <form action="<?php URL::out( 'submit_feedback', array( 'id' => $post->id ) ); ?>" method="post" id="commentform">
        <div id="comment-personaldetails">
         <p>
@@ -34,5 +36,6 @@ if ( Session::has_errors() ) {
        </p>
        <div class="clear"></div>
       </form>
+*/ ?>
      </div>
 <!-- /commentsform -->

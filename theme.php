@@ -61,6 +61,17 @@ class RinoTheme extends Theme
 		return $rules;
 	}
 */
+	/**
+	 * Customize comment form layout. Needs thorough commenting.
+	 */
+	public function action_form_comment( $form ) { 
+		$this->add_template('formcontrol_text', dirname(__FILE__).'/formcontrol_text.php', true);
+		$form->cf_commenter->caption = '<small><strong>' . _t('Name') . '</strong></small><span class="required">' . ( Options::get('comments_require_id') == 1 ? ' *' . _t('Required') : '' ) . '</span>';
+		$form->cf_email->caption = '<small><strong>' . _t('Mail') . '</strong> ' . _t( '(will not be published)' ) .'</small><span class="required">' . ( Options::get('comments_require_id') == 1 ? ' *' . _t('Required') : '' ) . '</span>';
+		$form->cf_url->caption = '<small><strong>' . _t('Website') . '</strong></small>';
+	        $form->cf_content->caption = '';
+		$form->cf_submit->caption = _t( 'Submit' );
+	}
 
 }
 
