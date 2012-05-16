@@ -26,7 +26,7 @@
 		var tb_pathToImage = "<?php Site::out_url('theme'); ?>/loadingAnimation.gif";
 	</script>
 	
-	<?php $theme->header(); ?>
+	<?php echo $theme->header(); ?>
   </head>
   <body class="<?php if ( $request->display_home ) { echo "home"; } ?>">
   	<div id="menu">
